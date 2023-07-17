@@ -1,0 +1,49 @@
+.main{
+    padding: 8vw 2vw;
+    
+}
+.container{
+    margin-top: 5vw;
+    border-radius: 5vw;
+    background-color: #7C9D96;
+    height: 25vw;
+    width: 40vw;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+}
+.inputC{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: 80%;
+    border-radius: 1vw;
+    
+}
+.button{
+    padding: 1vw;
+    margin-top: 2vw;
+    margin-left: 40%;
+    width: 7vw;
+    border-radius: 1vw;
+    background-color: #ddd;
+    
+}
+label{
+    font-size: 1.5vw;
+}
+
+.retorno{
+    padding: 1vw;
+    margin-top: 2vw;
+    margin-left: 40%;
+    width: 12vw;
+    height: 5vw;
+    border-radius: 1vw;
+    position: absolute;
+    transform: translate(30vw,30vw);
+    font-size: 2vw;
+}
+
+.retorno:hover{
+    background-color: #E9B384;
+}

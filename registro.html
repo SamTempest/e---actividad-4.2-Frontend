@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Participantes</title>
+    <link rel="stylesheet" href="./registro.css">
+</head>
+<body>
+    <main>
+        <section> 
+            <a href="./index.html" ><button class="retorno ">Regresar</button></a>
+        <form action="" class="container ">
+            <h3>Registrar Participantes</h3>
+                <label for="inputNombre">Nombre</label>
+                <input type="text" id="inputNombre" required class="inputC">
+                <label for="inputEdad" class="inputC">Edad</label>
+                <input type="number" id="inputEdad" required class="inputC">
+                <label for="selectGenero">Genero</label>
+                <select id="selectGenero" required class="inputC">
+                    <option value=""></option>
+                    <option value="hombre">hombre</option>
+                    <option value="mujer">mujer</option>
+                    <option value="prefiero no decirlo">Prefiero no decirlo</option>  
+                </select> 
+                <input class="button" type="submit" name="" id="Guardar"  value="Registrar">
+        </form>
+
+
+        <form action="" class="container ">
+            <h3>Eliminar Participantes</h3>
+                <label for="inputDelet">Nombre del Particiante a eliminar</label>
+                <input class="inputC" type="text" id="inputDelet" required>
+                <input class="button" type="button" id="eliminar" value="Eliminar">
+        </form>
+
+
+        <form action="" class="container ">
+            <h3>Buscar Participantes</h3>
+            <input class="inputC" type="text" id="busqueda" required>
+            <input class="button" type="button" value="Buscar" id="buscar">
+        </form>
+        <form action="" class="container ">
+            <h3>Modificar Participantes</h3>
+            <label for="mostrarNombre">Nombre</label>
+            <input class="inputC" type="text" id="mostrarNombre" readonly>
+            <label for="EdadModificar">Edad</label>
+            <input class="inputC" type="number" id="EdadModificar" required>
+            <label for="modificarGenero">Genero</label>
+            <select class="inputC" id="modificarGenero" required>
+                <option value=""></option>
+                <option value="hombre">hombre</option>
+                <option value="mujer">mujer</option>
+                <option value="prefiero no decirlo">Prefiero no decirlo</option>  
+            </select> 
+            <input class="button" type="submit" name="" id="modificar"  value="Registrar">
+        </form>
+        </section>
+                
+        
+    </main>
+<a href="./index.html">ATRAS</a>
+    <script src="./CRUD.js"></script>
+</body>
+</html>
